@@ -1,0 +1,68 @@
+body{
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    margin: 5%;
+}
+
+.bmi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+    width: 150px;
+    height: 28px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    border-color: blue;
+}
+
+input:hover{
+    color: white;
+    background-color: black;
+}
+#result{
+    height: 28px;
+    width: 200px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #212121;
+}
